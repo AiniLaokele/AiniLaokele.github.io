@@ -3,8 +3,8 @@
     <channel>
         <title>变态辣的主题公园</title>
         <subtitle></subtitle>
-        <icon>http://example.com/images/favicon.ico</icon>
-        <link>http://example.com</link>
+        <icon>https://symplectic.gitee.io/images/favicon.ico</icon>
+        <link>https://symplectic.gitee.io</link>
         <author>
           <name>变态辣</name>
         </author>
@@ -13,11 +13,11 @@
         <pubDate>Fri, 24 Nov 2023 19:00:00 +0800</pubDate>
         <lastBuildDate>Fri, 24 Nov 2023 19:00:00 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2023/11/24/UniApp/index/</guid>
+            <guid isPermalink="true">https://symplectic.gitee.io/2023/11/24/UniApp/index/</guid>
             <title>UniApp获取设备信息</title>
-            <link>http://example.com/2023/11/24/UniApp/index/</link>
-            <category term="UniApp" scheme="http://example.com/categories/UniApp/" />
-            <category term="uniapp" scheme="http://example.com/tags/uniapp/" />
+            <link>https://symplectic.gitee.io/2023/11/24/UniApp/index/</link>
+            <category term="UniApp" scheme="https://symplectic.gitee.io/categories/UniApp/" />
+            <category term="uniapp" scheme="https://symplectic.gitee.io/tags/uniapp/" />
             <pubDate>Fri, 24 Nov 2023 19:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;UniApp 获取到当前设备高度与宽度和当前元素距离顶部的距离&lt;/p&gt;
 &lt;h1 id=&#34;获取到当前设备的宽度和高度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#获取到当前设备的宽度和高度&#34;&gt;#&lt;/a&gt; 获取到当前设备的宽度和高度&lt;/h1&gt;
