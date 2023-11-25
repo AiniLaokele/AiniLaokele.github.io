@@ -1,0 +1,21 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "变态辣的主题公园",
+    "subtitle": "",
+    "icon": "http://example.com/images/favicon.ico",
+    "description": "变态辣 & 编程笔记",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/11/24/UniApp/index/",
+            "url": "http://example.com/2023/11/24/UniApp/index/",
+            "title": "UniApp获取设备信息",
+            "date_published": "2023-11-24T11:00:00.000Z",
+            "content_html": "<p>UniApp 获取到当前设备高度与宽度和当前元素距离顶部的距离</p>\n<h1 id=\"获取到当前设备的宽度和高度\"><a class=\"anchor\" href=\"#获取到当前设备的宽度和高度\">#</a> 获取到当前设备的宽度和高度</h1>\n<figure class=\"highlight javascript\"><figcaption data-lang=\"javascript\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>uni<span class=\"token punctuation\">.</span><span class=\"token function\">getSystemInfo</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token function-variable function\">success</span><span class=\"token operator\">:</span> <span class=\"token keyword\">function</span> <span class=\"token punctuation\">(</span><span class=\"token parameter\">res</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>        console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span>res<span class=\"token punctuation\">.</span>windowHeight<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>        console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span>res<span class=\"token punctuation\">.</span>windowWidth<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure><h1 id=\"获取到当前元素距离顶部的距离\"><a class=\"anchor\" href=\"#获取到当前元素距离顶部的距离\">#</a> 获取到当前元素距离顶部的距离</h1>\n<figure class=\"highlight javascript\"><figcaption data-lang=\"javascript\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>uni<span class=\"token punctuation\">.</span><span class=\"token function\">createSelectorQuery</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">.</span><span class=\"token function\">select</span><span class=\"token punctuation\">(</span><span class=\"token string\">'.your-selector'</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token punctuation\">.</span><span class=\"token function\">boundingClientRect</span><span class=\"token punctuation\">(</span><span class=\"token keyword\">function</span><span class=\"token punctuation\">(</span><span class=\"token parameter\">rect</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    <span class=\"token comment\">// 元素上边距离屏幕顶部的高度</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>    console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span>rect<span class=\"token punctuation\">.</span>top<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">.</span><span class=\"token function\">exec</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr></table></figure>",
+            "tags": [
+                "UniApp",
+                "uniapp"
+            ]
+        }
+    ]
+}
