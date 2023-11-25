@@ -9,6 +9,9 @@
       <name>变态辣</name>
     </author>
     <updated>2023-11-24T11:00:00.000Z</updated>
+    <category term="shoka" />
+    <category term="个人博客" />
+    <category term="gitee" />
     <entry>
         <id>https://symplectic.gitee.io/2023/11/24/UniApp/index/</id>
         <title>UniApp获取设备信息</title>
