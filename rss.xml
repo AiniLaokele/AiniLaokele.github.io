@@ -23,7 +23,7 @@
             <category term="nvm" scheme="https://symplectic.gitee.io/tags/nvm/" />
             <pubDate>Tue, 05 Dec 2023 13:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;nvm的作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvm的作用&#34;&gt;#&lt;/a&gt; Nvm 的作用&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;red&#34;&gt;我们可能在工作和学习中可能都会遇到需要使用多个&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt; node 版本&lt;/span&gt;&lt;span class=&#34;red&#34;&gt;的时候，nvm 正为解决这个而生，NVM（Node Version Manager）是一个用于管理 Node.js 版本的工具，并没有官方网站。NVM 是一个开源项目，其代码托管在 GitHub 上&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;我们可能在工作和学习中都会遇到需要使用多个&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt; node 版本&lt;/span&gt;&lt;span class=&#34;red&#34;&gt;的时候，nvm 正为解决这个而生，NVM（Node Version Manager）是一个用于管理 Node.js 版本的工具，并没有官方网站。NVM 是一个开源项目，其代码托管在 GitHub 上&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;nvm下载与安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvm下载与安装&#34;&gt;#&lt;/a&gt; Nvm 下载与安装&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;br /&gt;
 1.&lt;ins class=&#34;dot red&#34;&gt; 首先安装目录不要有空格和中文，会出现乱码！&lt;/ins&gt;&lt;br /&gt;
