@@ -7,6 +7,17 @@
     "home_page_url": "https://symplectic.gitee.io",
     "items": [
         {
+            "id": "https://symplectic.gitee.io/2023/12/05/Nvm/Nvm%E7%9A%84%E5%AE%89%E8%A3%85/index/",
+            "url": "https://symplectic.gitee.io/2023/12/05/Nvm/Nvm%E7%9A%84%E5%AE%89%E8%A3%85/index/",
+            "title": "Nvm的安装与配置",
+            "date_published": "2023-12-05T05:00:00.000Z",
+            "content_html": "",
+            "tags": [
+                "Nvm",
+                "nvm"
+            ]
+        },
+        {
             "id": "https://symplectic.gitee.io/2023/11/25/UniApp/Paging_request/index/",
             "url": "https://symplectic.gitee.io/2023/11/25/UniApp/Paging_request/index/",
             "title": "UniApp处理分页请求",

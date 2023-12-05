@@ -8,10 +8,19 @@
     <author>
       <name>变态辣</name>
     </author>
-    <updated>2023-11-25T10:40:00.000Z</updated>
+    <updated>2023-12-05T05:00:00.000Z</updated>
     <category term="shoka" />
     <category term="个人博客" />
     <category term="gitee" />
+    <entry>
+        <id>https://symplectic.gitee.io/2023/12/05/Nvm/Nvm%E7%9A%84%E5%AE%89%E8%A3%85/index/</id>
+        <title>Nvm的安装与配置</title>
+        <link rel="alternate" href="https://symplectic.gitee.io/2023/12/05/Nvm/Nvm%E7%9A%84%E5%AE%89%E8%A3%85/index/"/>
+        <content type="html"></content>
+        <category term="Nvm" scheme="https://symplectic.gitee.io/categories/Nvm/" />
+        <category term="nvm" scheme="https://symplectic.gitee.io/tags/nvm/" />
+        <updated>2023-12-05T05:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://symplectic.gitee.io/2023/11/25/UniApp/Paging_request/index/</id>
         <title>UniApp处理分页请求</title>
