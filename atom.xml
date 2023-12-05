@@ -42,7 +42,7 @@
 &lt;div class=&#34;note default no-icon&#34;&gt;
 &lt;p&gt;npm config get registry&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;3. 如果返回 https://registry.npm.taobao.org/，说明配置的是淘宝镜像。&lt;/p&gt;
+&lt;p&gt;3. 如果返回&lt;mark&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG0udGFvYmFvLm9yZy8=&#34;&gt; https://registry.npm.taobao.org/&lt;/span&gt;&lt;/mark&gt;，说明配置的是淘宝镜像。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;查询可以下载的所有 node 版本：&lt;/strong&gt;&lt;br /&gt;
 &lt;span class=&#34;red&#34;&gt;首先，使用 NVM 命令 nvm list available，查看可安装的 NodeJS 版本。建议选择 LTS 中的版本进行安装&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;red&#34;&gt;（LTS，即 Long Term Support，长期支持版本）&lt;/span&gt;&lt;/p&gt;
