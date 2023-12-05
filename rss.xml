@@ -22,7 +22,54 @@
             <category term="Nvm" scheme="https://symplectic.gitee.io/categories/Nvm/" />
             <category term="nvm" scheme="https://symplectic.gitee.io/tags/nvm/" />
             <pubDate>Tue, 05 Dec 2023 13:00:00 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;h1 id=&#34;nvm的作用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvm的作用&#34;&gt;#&lt;/a&gt; Nvm 的作用&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;我们可能在工作和学习中可能都会遇到需要使用多个&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt; node 版本&lt;/span&gt;&lt;span class=&#34;red&#34;&gt;的时候，nvm 正为解决这个而生，NVM（Node Version Manager）是一个用于管理 Node.js 版本的工具，并没有官方网站。NVM 是一个开源项目，其代码托管在 GitHub 上&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;nvm下载与安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvm下载与安装&#34;&gt;#&lt;/a&gt; Nvm 下载与安装&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;br /&gt;
+1.&lt;ins class=&#34;dot red&#34;&gt; 首先安装目录不要有空格和中文，会出现乱码！&lt;/ins&gt;&lt;br /&gt;
+2.&lt;ins class=&#34;dot red&#34;&gt; 如果已经有 node，需要卸载当前 node，不然会产生报错或异常情况！卸载直接通过控制面板卸载即可！&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nvm 的 github 地址：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;blue&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2NvcmV5YnV0bGVyL252bS13aW5kb3dzL3JlbGVhc2Vz&#34;&gt;https://github.com/coreybutler/nvm-windows/releases&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;安装：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;找到&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt; nvm-setup.zip&lt;/span&gt;&lt;span class=&#34;red&#34;&gt; 或者&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt; nvm-setup.exe&lt;/span&gt;&lt;span class=&#34;red&#34;&gt; 除了路径正常安装即可&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;选择安装路径：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;默认是 C 盘，我自己指定的是 D 盘的 nvm 文件夹，Nvm 和以后所有 Node 版本会下载到你指定的文件夹&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;rainbow&#34;&gt;（我是为了防止成为 C 盘战士）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设定当前系统使用 node 版本的存放位置：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;也就是说系统最终使用的是这个文件夹里面的 node 版本，nvm 下载了多个版本，指定某个版本后，这个指定的版本就会放到这个 node 文件中，供系统使用。&lt;/span&gt;&lt;span class=&#34;rainbow&#34;&gt;（在这里我也放到了 D 盘的 Node 文件夹下）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Npm 配置淘宝镜像源：&lt;/strong&gt;&lt;br /&gt;
+1. 设置淘宝镜像源&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;npm config set registry &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG0udGFvYmFvLm9yZy8=&#34;&gt;https://registry.npm.taobao.org/&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;2. 查看镜像使用状态&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;npm config get registry&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;3. 如果返回 https://registry.npm.taobao.org/，说明配置的是淘宝镜像。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;查询可以下载的所有 node 版本：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;首先，使用 NVM 命令 nvm list available，查看可安装的 NodeJS 版本。建议选择 LTS 中的版本进行安装&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;（LTS，即 Long Term Support，长期支持版本）&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;nvm list available&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;安装指定版本：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;nvm install xxx&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;查看已经安装的 node 版本：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;nvm list&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;切换 Node 版本：&lt;/strong&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;注意：切换版本前请以&lt;/span&gt;&lt;mark&gt;管理员身份运行命令&lt;/mark&gt;&lt;span class=&#34;red&#34;&gt;提示符，否则会出现以下错误↓&lt;/span&gt;&lt;br /&gt;
+&lt;ins class=&#34;wavy&#34;&gt;exit status 1: ��û���㹻��Ȩ��ִ�д˲�����&lt;/ins&gt;&lt;/p&gt;
+&lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;nvm use xxx&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://symplectic.gitee.io/2023/11/25/UniApp/Paging_request/index/</guid>
