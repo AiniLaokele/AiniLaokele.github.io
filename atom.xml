@@ -58,7 +58,7 @@
 &lt;p&gt;nvm list&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;切换 Node 版本：&lt;/strong&gt;&lt;br /&gt;
-&lt;span class=&#34;red&#34;&gt;注意：切换版本前请以&lt;/span&gt;&lt;mark&gt;管理员身份运行命令&lt;/mark&gt;&lt;span class=&#34;red&#34;&gt;提示符，否则会出现以下错误↓&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;注意：切换版本前请以&lt;/span&gt;&lt;mark&gt;管理员身份&lt;/mark&gt;&lt;span class=&#34;red&#34;&gt;运行命令提示符，否则会出现以下错误↓&lt;/span&gt;&lt;br /&gt;
 &lt;ins class=&#34;wavy&#34;&gt;exit status 1: ��û���㹻��Ȩ��ִ�д˲�����&lt;/ins&gt;&lt;/p&gt;
 &lt;div class=&#34;note default no-icon&#34;&gt;
 &lt;p&gt;nvm use xxx&lt;/p&gt;
