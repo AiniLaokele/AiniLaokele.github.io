@@ -43,13 +43,13 @@
 &lt;span class=&#34;red&#34;&gt;第一种方式：&lt;/span&gt;&lt;br /&gt;
 1. 设置淘宝镜像源&lt;/p&gt;
 &lt;div class=&#34;note default no-icon&#34;&gt;
-&lt;p&gt;npm config set registry &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG0udGFvYmFvLm9yZy8=&#34;&gt;https://registry.npm.taobao.org/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;npm config set registry &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29t&#34;&gt;https://registry.npmmirror.com&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;2. 查看镜像使用状态&lt;/p&gt;
 &lt;div class=&#34;note default no-icon&#34;&gt;
 &lt;p&gt;npm config get registry&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;3. 如果返回&lt;mark&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG0udGFvYmFvLm9yZy8=&#34;&gt; https://registry.npm.taobao.org/&lt;/span&gt;&lt;/mark&gt;，说明配置的是淘宝镜像。&lt;/p&gt;
+&lt;p&gt;3. 如果返回&lt;mark&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29t&#34;&gt; https://registry.npmmirror.com&lt;/span&gt;&lt;/mark&gt;，说明配置的是淘宝镜像。&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;red&#34;&gt;第二种方式：&lt;/span&gt;&lt;br /&gt;
 1. 安装 nrm 镜像管理工具&lt;/p&gt;
 &lt;div class=&#34;note default no-icon&#34;&gt;
